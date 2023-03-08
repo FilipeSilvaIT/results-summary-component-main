@@ -1,0 +1,21 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+@font-face {
+    font-family: fontBold;
+    src: url("assets/fonts/static/HankenGrotesk-Bold.ttf");
+}
+@font-face {
+    font-family: extraBold;
+    src: url("assets/fonts/static/HankenGrotesk-ExtraBold.ttf");
+}
+@font-face {
+    font-family: fontMedium;
+    src: url("assets/fonts/static/HankenGrotesk-Medium.ttf");
+}
+
+.summary-skills {
+    font-family: fontMedium;
+}
