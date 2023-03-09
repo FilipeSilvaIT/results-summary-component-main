@@ -19,3 +19,16 @@
 .summary-skills {
     font-family: fontMedium;
 }
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.score {
+    display: inline-block;
+}
+.summary-skills {
+    display: inline-block;
+}
