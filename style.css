@@ -1,6 +1,7 @@
 body, main {
     display: flex;
-    background-color: hsl(0, 0%, 100%)
+    background-color: hsl(0, 0%, 100%);
+    font-family: 'Hanken Grotesk', sans-serif;;
 }
 
 main {
@@ -17,12 +18,90 @@ main {
     height: 350px;
     border-radius: 24px;
     text-align: center;
+    color: hsl(0, 0%, 100%);
 }
 
 .card-summary {
-    display: inline-block;
+    margin: 1rem;
+    display: flex;
+    flex-direction: column;
     background-color: hsl(0, 0%, 100%);
     width: 270px;
     height: 350px;
     border-radius: 24px;
+    align-items: flex-start;
+}
+
+.titulo-cabecalho {
+    color: hsl(224, 30%, 27%);
+    margin-bottom: 1rem;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.reaction {
+    padding: 7px;
+    border-radius: 7px;
+    background-color: hsla(0, 100%, 67%, 0.15);
+    display: flex;
+    gap: 2rem;
+    color: hsl(0, 100%, 67%);
+
+}
+.memory {
+    padding: 7px;
+    border-radius: 7px;
+    background-color: hsl(39, 100%, 56%, 0.15);
+    display: flex;
+    gap: 2rem;
+    color: hsl(39, 100%, 56%);
+}
+.verbal {
+    padding: 7px;
+    border-radius: 7px;
+    background-color: hsl(166, 100%, 37%, 0.15);
+    display: flex;
+    gap: 2rem;
+    color: hsl(166, 100%, 37%);
+}
+.visual {
+    padding: 7px;
+    border-radius: 7px;
+    background-color: hsl(234, 85%, 45%, 0.15);
+    display: flex;
+    gap: 2rem;
+    color: hsl(234, 85%, 45%);
+}
+
+.container, .numbers {
+    display: flex;
+}
+
+.number {
+    display: flex;
+    text-align: end;
+    justify-self: end;
+    color: hsl(224, 30%, 27%);
+}
+
+.cem {
+    color: hsla(0, 0%, 100%, 0.8);
+}
+
+button {
+    background-color: hsl(224, 30%, 27%);
+    border: none;
+    color: hsl(0, 0%, 100%);
+    padding: 7px 60px;
+    text-decoration: none;
+    font-size: 16px;
+    cursor: pointer;
+    flex-direction: column;
+    border-radius: 20px;
+    display: flex;
+    gap: 5rem;
 }
